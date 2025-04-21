@@ -1,0 +1,21 @@
+Backend:
+
+npm init -y
+
+npm i express mysql2 cors
+
+node server
+
+Frontend:
+
+npx create-react-app .
+
+npm install axios react-router-dom
+
+{
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts start",
+  }
+}
+
+npm start
