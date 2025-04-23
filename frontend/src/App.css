@@ -147,3 +147,60 @@
   color: #999;
   font-style: italic; 
 }
+
+.curso-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.curso-table-container {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.curso-table-container h3 {
+  color: #333;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ddd;
+  font-size: 1.1rem;
+}
+
+.compact-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.compact-table th,
+.compact-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.compact-table th {
+  background-color: #f0f0f0;
+}
+
+.button-group {
+  display: flex;
+  gap: 5px;
+}
+
+.btn-small {
+  padding: 3px 8px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .curso-table-container {
+    width: 100%;
+  }
+}
